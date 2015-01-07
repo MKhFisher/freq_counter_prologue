@@ -1,0 +1,11 @@
+c:\users\michaelf\documents\visual studio 2013\Projects\Frequency\Frequency\bin\Debug\Frequency.exe.config
+c:\users\michaelf\documents\visual studio 2013\Projects\Frequency\Frequency\bin\Debug\Frequency.exe
+c:\users\michaelf\documents\visual studio 2013\Projects\Frequency\Frequency\bin\Debug\Frequency.pdb
+c:\users\michaelf\documents\visual studio 2013\Projects\Frequency\Frequency\obj\Debug\Frequency.exe
+c:\users\michaelf\documents\visual studio 2013\Projects\Frequency\Frequency\obj\Debug\Frequency.pdb
+c:\users\michaelf\documents\visual studio 2013\Projects\Frequency\Frequency\obj\Debug\Frequency.csprojResolveAssemblyReference.cache
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\freq_counter-master\Frequency\bin\Debug\Frequency.exe.config
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\freq_counter-master\Frequency\obj\Debug\Frequency.exe
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\freq_counter-master\Frequency\obj\Debug\Frequency.pdb
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\freq_counter-master\Frequency\bin\Debug\Frequency.exe
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\freq_counter-master\Frequency\bin\Debug\Frequency.pdb
