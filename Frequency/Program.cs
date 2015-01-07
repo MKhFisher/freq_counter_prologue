@@ -103,6 +103,10 @@ namespace Frequency
 
                                 bool IsResultValid = ValidateFrequencies(sorted, 25);
                                 Console.WriteLine("Frequencies counted and top 25 results validated. Results of validation is: {0}", IsResultValid);
+                                for (int i = 0; i < 25; i++)
+                                {
+                                    Console.WriteLine("{0}: {1}  -  {2}", i, sorted[i].term, sorted[i].frequency);
+                                }
                                 Console.ReadKey();
                             }
                         }

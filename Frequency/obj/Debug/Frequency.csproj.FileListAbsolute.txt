@@ -9,3 +9,4 @@ C:\Users\Michael\Documents\Visual Studio 2013\Projects\freq_counter-master\Frequ
 C:\Users\Michael\Documents\Visual Studio 2013\Projects\freq_counter-master\Frequency\obj\Debug\Frequency.pdb
 C:\Users\Michael\Documents\Visual Studio 2013\Projects\freq_counter-master\Frequency\bin\Debug\Frequency.exe
 C:\Users\Michael\Documents\Visual Studio 2013\Projects\freq_counter-master\Frequency\bin\Debug\Frequency.pdb
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\freq_counter-master\Frequency\obj\Debug\Frequency.csprojResolveAssemblyReference.cache
