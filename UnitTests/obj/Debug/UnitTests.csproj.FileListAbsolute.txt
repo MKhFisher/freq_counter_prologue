@@ -1,5 +1,0 @@
-C:\Users\Michael\Documents\Visual Studio 2013\Projects\freq_counter-master\UnitTests\bin\Debug\UnitTests.dll
-C:\Users\Michael\Documents\Visual Studio 2013\Projects\freq_counter-master\UnitTests\bin\Debug\UnitTests.pdb
-C:\Users\Michael\Documents\Visual Studio 2013\Projects\freq_counter-master\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
-C:\Users\Michael\Documents\Visual Studio 2013\Projects\freq_counter-master\UnitTests\obj\Debug\UnitTests.dll
-C:\Users\Michael\Documents\Visual Studio 2013\Projects\freq_counter-master\UnitTests\obj\Debug\UnitTests.pdb
