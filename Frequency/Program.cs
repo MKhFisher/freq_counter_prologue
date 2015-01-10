@@ -108,7 +108,7 @@ namespace Frequency
                                 Console.WriteLine("Frequencies counted and top 25 results validated. Results of validation is: {0}", IsResultValid);
                                 for (int i = 0; i < 25; i++)
                                 {
-                                    Console.WriteLine("{0}: {1}  -  {2}", i + 1, freq[i].term, freq[i].frequency);
+                                    Console.WriteLine("{1}  -  {2}", i + 1, freq[i].term, freq[i].frequency);
                                 }
                                 Console.ReadKey();
                             }
