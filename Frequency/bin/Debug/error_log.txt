@@ -1,0 +1,8 @@
+*********************************************
+1/9/2015
+0:00
+System.ArgumentException: Item has already been added. Key in dictionary: 'ebook'  Key being added: 'ebook'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Frequency.Program.Main(String[] args) in c:\Users\Michael\Documents\Visual Studio 2013\Projects\freq_counter-master\Frequency\Program.cs:line 86
+*********************************************

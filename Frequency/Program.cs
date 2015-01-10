@@ -13,17 +13,18 @@ namespace Frequency
 {
     public class Frequency
     {
-        public string term { get; set; }
-        public int frequency { get; set; }
+        public string term;
+        public int frequency;
 
-        public void IncrementFrequency()
+        public Frequency(string term)
         {
-            this.frequency += 1;
+            this.term = term;
+            this.frequency = 1;
         }
 
-        public int GetFrequency()
+        public void IncrementFrequency(int increment)
         {
-            return this.frequency;
+            frequency += increment;
         }
     }
 
@@ -79,33 +80,35 @@ namespace Frequency
 
                                 foreach (string word in tokens)
                                 {
-                                    var stop = stopwords.Any(x => x == word);
-                                    if (stop)
+                                    if (stopwords.Contains(word))
                                     {
                                         continue;
                                     }
+
+                                    Frequency temp = new Frequency(word);
+                                    if (duplicates[word] == null)
+                                    {
+                                        duplicates[word] = temp;
+                                    }
                                     else
                                     {
-                                        try
-                                        {
-                                            duplicates.Add(word, word);
-                                            freq.Add(new Frequency { term = word, frequency = 1 });
-                                        }
-                                        catch
-                                        {
-                                            var update = freq.Find(x => x.term == word);
-                                            update.IncrementFrequency();
-                                        }
+                                        Frequency update = duplicates[word] as Frequency;
+                                        update.IncrementFrequency(1);
                                     }
                                 }
 
-                                List<Frequency> sorted = freq.OrderByDescending(x => x.frequency).ToList();
+                                foreach (DictionaryEntry entry in duplicates)
+                                {
+                                    freq.Add(entry.Value as Frequency);
+                                }
 
-                                bool IsResultValid = ValidateFrequencies(sorted, 25);
+                                freq = freq.OrderByDescending(x => x.frequency).ToList();
+
+                                bool IsResultValid = ValidateFrequencies(freq, 25);
                                 Console.WriteLine("Frequencies counted and top 25 results validated. Results of validation is: {0}", IsResultValid);
                                 for (int i = 0; i < 25; i++)
                                 {
-                                    Console.WriteLine("{0}: {1}  -  {2}", i + 1, sorted[i].term, sorted[i].frequency);
+                                    Console.WriteLine("{0}: {1}  -  {2}", i + 1, freq[i].term, freq[i].frequency);
                                 }
                                 Console.ReadKey();
                             }
